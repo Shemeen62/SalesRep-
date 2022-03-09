@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ViewHistoryActivity">
+
+    <ImageView
+        android:id="@+id/iv_history"
+        android:layout_width="318dp"
+        android:layout_height="286dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="108dp"
+        android:alpha="0.4"
+        android:background="@drawable/shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/history"/>
+
+    <TextView
+        android:id="@+id/tv_note1"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginTop="52dp"
+        android:text="Empty transaction history"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_history" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

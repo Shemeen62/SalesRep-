@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.StockStartActivity"
+    android:background="@drawable/startstock">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <com.example.salesrep.utils.SRPButton
+            android:id="@+id/btn_add_stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/button_background"
+            android:foreground="?attr/selectableItemBackground"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Add Stock"
+            android:textColor="@color/white" />
+
+
+        <com.example.salesrep.utils.SRPTextViewBold
+            android:id="@+id/tv_skip_for_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="620dp"
+            android:padding="5dp"
+            android:text="@string/skip"
+            android:textColor="@color/secondary_text"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

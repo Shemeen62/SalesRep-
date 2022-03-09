@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_shops"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="50dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:id="@+id/ll_shops"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/shops"
+                    android:scaleType="fitXY"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/iv_edit_shop"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="280dp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:scaleType="center"
+                        android:src="@drawable/ic_edit"/>
+
+                    <ImageView
+                        android:id="@+id/iv_delete_shop"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="10dp"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:scaleType="center"
+                        android:src="@drawable/ic_delete"/>
+
+                </LinearLayout>
+
+                <com.example.salesrep.utils.SRPTextViewBold
+                    android:id="@+id/tv_shop_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shop 1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+
+                <com.example.salesrep.utils.SRPTextViewBold
+                    android:id="@+id/tv_route"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Route : "
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <com.example.salesrep.utils.SRPTextView
+                    android:id="@+id/tv_route_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Moratuwa to Katubedda"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SalesRep+</string>
+
+    <string name="signup"><u>SignUp</u></string>
+    <string name="login"><u>Login</u></string>
+
+
+    <string name="create_account">CREATE NEW ACCOUNT</string>
+    <string name="have_account">Have an account ?</string>
+    <string name="agree">I agree to terms and conditions</string>
+
+
+    <string name="skip">Skip for now ></string>
+
+
+    <!-- Signup activity errors -->
+    <string name="error_enter_f_name">Please enter the first name</string>
+    <string name="error_enter_l_name">Please enter the last name</string>
+    <string name="error_enter_email">Please enter the email</string>
+    <string name="error_enter_password">Please enter a password</string>
+    <string name="error_confirm_password">Please confirm your password</string>
+    <string name="terms_conditions">Please agree to terms and conditions</string>
+
+    <string name="register_success">Registered successfully!</string>
+
+
+    <!-- Login activity errors -->
+    <string name="error_email">Please enter the email</string>
+    <string name="error_password">Incorrect password</string>
+
+
+    <!-- function names -->
+    <string name="shops">Shops</string>
+    <string name="stock">Stock</string>
+    <string name="routes">Routes</string>
+    <string name="history">History</string>
+
+
+    <!-- dialog progress please wait -->
+    <string name="please_wait">Please wait&#8230;</string>
+
+
+    <!-- Complete user profile -->
+    <string name="complete_profile">PROFILE</string>
+    <string name="edt_hint_phone">Mobile</string>
+    <string name="rb_lbl_male">MALE</string>
+    <string name="rb_lbl_female">FEMALE</string>
+    <string name="btn_save">Save</string>
+
+
+</resources>
